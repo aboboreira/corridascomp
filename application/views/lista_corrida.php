@@ -37,13 +37,13 @@ text-align: center;
                    <tr>
                    	<td style="display:none;"><?php echo $content->id_corrida; ?></td>
 
-                   	<td><input type="text" name="nm_motorista" placeholder="<?php echo $content->nm_motorista; ?>" value="<?php echo $content->nm_motorista; ?>"></td>
+                   	<td><input disabled="disabled" type="text" name="nm_motorista" placeholder="<?php echo $content->nm_motorista; ?>" value="<?php echo $content->nm_motorista; ?>"></td>
 
-                      <td><input type="text" name="nm_passageiro" placeholder="<?php echo $content->nm_passageiro; ?>" value="<?php echo $content->nm_passageiro; ?>"></td>
+                      <td><input  disabled="disabled" type="text" name="nm_passageiro" placeholder="<?php echo $content->nm_passageiro; ?>" value="<?php echo $content->nm_passageiro; ?>"></td>
 
                       
 
-                      <td><input type="text" name="vl_corrida" placeholder="<?php echo $content->vl_corrida; ?>" value="<?php echo $content->vl_corrida; ?>"></td>
+                      <td><input  disabled="disabled" type="text" name="vl_corrida" placeholder="<?php echo $content->vl_corrida; ?>" value="<?php echo $content->vl_corrida; ?>"></td>
 
                       
 
